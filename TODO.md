@@ -1,6 +1,0 @@
-- [ ] Edit ContactUs.jsx to add backgroundImage style to contact-us div
-- [ ] Edit ContactUs.module.css to remove background property
-- [ ] Edit Interior.jsx to add backgroundImage style to hero-section div and fix image paths
-- [ ] Edit interior.css to remove background from .hero-section
-- [ ] Edit DesignPackage.jsx to add backgroundImage style to enquire-container div and fix image paths
-- [ ] Edit DesignPackage.css to remove background from .enquire-container
