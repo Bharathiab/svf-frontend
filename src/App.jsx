@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/home';
+import Home from './components/Home';
 const ConstructionPackage = lazy(() => import('./components/ConstructionPackage'));
 import Ourteam from './components/Ourteam';
 import OurWorks from './components/OurWorks';
