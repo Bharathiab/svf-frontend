@@ -1,0 +1,94 @@
+/* Styles for ConstructionPackage component */
+
+/* Last section: Sri Vinayaga Foundation Architects Section */
+.architects-section {
+  background-color: #f8f9fa; /* Light background */
+  padding: 3rem 0;
+}
+
+.section-title {
+  color: #198754;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  color: #198754;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section-subheading {
+  color: #343a40;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-text {
+  color: #6c757d;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.section-list {
+  color: #495057;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.section-list li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.section-list li::before {
+  content: "•";
+  color: #198754;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.green-bar {
+  height: 4px;
+  width: 60px;
+  background-color: #198754;
+  margin: 0 auto 20px auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .section-subtitle {
+    font-size: 1.75rem;
+  }
+  .section-subheading {
+    font-size: 1.25rem;
+  }
+  .section-text {
+    font-size: 1rem;
+  }
+}
+
+/* Fade In Animation for images */
+img {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

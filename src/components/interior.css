@@ -1,0 +1,294 @@
+body, html {
+      height: 100%;
+      margin: 0;
+    }
+    .hero-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 30px;
+    }
+    .form-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+      width: 100%;
+      max-width: 400px;
+    }
+    .form-box h4 {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .btn-quote {
+      background-color: #198754;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 50px;
+    }
+    .btn-quote:hover {
+      border-color: #28a745;
+    }
+    .headline {
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      color: #000;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    
+    .solutions-section {
+      padding: 60px 0;
+      text-align: center;
+    }
+    .solutions-section h2 {
+      font-weight: bold;
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block;
+    }
+    .solutions-section h2::after {
+      content: '';
+      display: block;
+      width: 50%;
+      height: 3px;
+      background:#28a745;
+      margin: 10px auto 0;
+    }
+    .solution-card {
+      border: 1px dashed #ddd;
+      border-radius: 10px;
+      padding: 30px 15px;
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+    .solution-card:hover {
+      border-color: #28a745;
+      background: #fff8f8;
+    }
+    .solution-card img {
+      height: 60px;
+      margin-bottom: 15px;
+    }
+    .btn-consult {
+      background-color:#28a745;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 50px;
+      padding: 12px 30px;
+      margin-top: 30px;
+    }
+    .btn-consult:hover {
+      background-color: #28a745;
+    }
+     .experience-section {
+      padding: 60px 0;
+      text-align: center;
+    }
+    .experience-section h2 {
+      font-weight: bold;
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block;
+    }
+    .experience-section h2 span {
+      color: #28a745;
+    }
+    .experience-section h2::after {
+      content: '';
+      display: block;
+      width: 60%;
+      height: 3px;
+      background: #28a745;
+      margin: 10px auto 0;
+    }
+    .experience-img {
+      border-radius: 6px;
+      box-shadow: 0px 3px 10px rgba(110, 215, 89, 0.15);
+      transition: transform 0.3s ease;
+    }
+    .experience-img:hover {
+      transform: scale(1.03);
+    }
+    .b{
+      background-color: #28a745;
+      color: white;
+      border: 2px white solid;
+    }
+    .experience-img {
+  width: 100%;
+  height: 250px;      /* fixed height for uniform size */
+  object-fit: cover;  /* crops without distortion */
+  border-radius: 6px;
+  box-shadow: 0px 3px 10px rgba(120, 186, 82, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.experience-img:hover {
+  transform: scale(1.03);
+}
+/* Connect section background */
+.connect-section {
+  background-color: #f2f2f2;
+}
+
+/* Enquiry form box */
+.enquiry-box {
+  background-color:#198754; /* yellow background */
+  max-width: 400px;
+  width: 100%;
+  color: white;
+}
+
+/* Input fields */
+.enquiry-box .form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Button */
+.enquiry-box button {
+  border-radius: 12px;
+  padding: 10px;
+  color: white;
+  
+  border: 2px white solid;
+}
+
+.enquiry-box button:hover {
+  border-radius: 12px;
+  padding: 10px;
+  color: #198754;
+  background-color: white;
+  border: 2px white solid;
+}
+
+
+/* Yellow banner */
+.cta-banner {
+  background-color: #28a745;
+}
+
+/* Ensure height matches map */
+.contact-map .row {
+  min-height: 500px; /* adjust based on design */
+}
+
+/* Social icons */
+.social-icons a {
+  color: #000;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #dc3545;
+}
+
+.h2{
+  color: white;
+}
+.faq-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Georgia', serif;
+  color: #333;
+  background-color: #fefefe;
+}
+
+.faq-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.faq-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.faq-item {
+  margin-bottom: 2rem;
+  border-top: 1px dashed #ccc;
+  padding-top: 1.5rem;
+}
+
+.faq-item h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.faq-item p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.faq-item strong {
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .headline {
+    font-size: 2.5rem;
+    left: 5%;
+  }
+  .hero-section {
+    padding: 20px;
+  }
+  .form-box {
+    max-width: 350px;
+    padding: 20px;
+  }
+  .experience-img {
+    height: 200px;
+  }
+  .contact-map .row {
+    min-height: 400px;
+  }
+  .faq-container {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .headline {
+    font-size: 2rem;
+    top: 20%;
+    left: 5%;
+    text-align: center;
+  }
+  .hero-section {
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .form-box {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .experience-img {
+    height: 150px;
+  }
+  .contact-map .row {
+    min-height: 300px;
+  }
+  .faq-container {
+    padding: 1rem 0.5rem;
+  }
+  .solutions-section h2 {
+    font-size: 1.5rem;
+  }
+  .experience-section h2 {
+    font-size: 1.5rem;
+  }
+  .faq-title {
+    font-size: 1.5rem;
+  }
+}

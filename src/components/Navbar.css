@@ -1,0 +1,27 @@
+/* Your existing underline styles stay */
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: #28a745;
+  transition: width 0.3s;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+/* 🚫 Disable underline only for Contact Us */
+.contact-link::after,
+.contact-link.active::after {
+  display: none !important;
+}

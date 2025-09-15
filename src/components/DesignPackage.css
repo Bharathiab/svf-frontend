@@ -1,0 +1,686 @@
+.container-fluid {
+  overflow-x: auto;
+  margin-top: 50px;
+}
+
+.container-fluid table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px; /* Allows horizontal scrolling */
+}
+
+.container-fluid th,
+.container-fluid td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+.container-fluid th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.container-fluid th.basic {
+  background-color: #007b8a;
+  color: #fff;
+}
+
+.container-fluid th.standard {
+  background-color: #8cbf26;
+  color: #fff;
+}
+
+.container-fluid th.premium {
+  background-color: #ff7d00;
+  color: #fff;
+}
+
+.container-fluid th.ultra {
+  background-color: #e03e2d;
+  color: #fff;
+}
+
+.container-fluid td {
+  background-color: #fff;
+}
+
+.container-fluid tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+.container-fluid .delivery-time td {
+  background-color: #d3dce1 !important;
+  font-weight: bold;
+}
+
+.container-fluid .buttons td {
+  background-color: #fff;
+}
+
+.container-fluid .buttons button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.container-fluid .buttons button:hover {
+  opacity: 0.9;
+}
+
+.container-fluid .buttons td:nth-child(2) button {
+  background-color: #007b8a;
+  color: #fff;
+}
+
+.container-fluid .buttons td:nth-child(3) button {
+  background-color: #8cbf26;
+  color: #fff;
+}
+
+.container-fluid .buttons td:nth-child(4) button {
+  background-color: #ff7d00;
+  color: #fff;
+}
+
+.container-fluid .buttons td:nth-child(5) button {
+  background-color: #e03e2d;
+  color: #fff;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 768px) {
+  .container-fluid table {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-fluid table {
+    font-size: 10px;
+  }
+
+  .container-fluid th,
+  .container-fluid td {
+    padding: 8px 10px;
+  }
+}
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table th,
+.table td {
+  white-space: normal; /* Allow wrapping */
+}
+
+.table th span,
+.table th small {
+  display: block;
+}
+
+/* Styles for ConstructionPackage component */
+
+/* Last section: Sri Vinayaga Foundation Architects Section */
+.designpackage .architects-section {
+  background-color: #f8f9fa; /* Light background */
+  padding: 3rem 0;
+}
+
+.designpackage .section-title {
+  color: #198754;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.designpackage .section-subtitle {
+  color: #198754;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.designpackage .section-subheading {
+  color: #343a40;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.designpackage .section-text {
+  color: #6c757d;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.designpackage .section-list {
+  color: #495057;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.designpackage .section-list li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.designpackage .section-list li::before {
+  content: "•";
+  color: #198754;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.designpackage .green-bar {
+  height: 4px;
+  width: 60px;
+  background-color: #198754;
+  margin: 0 auto 20px auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .section-subtitle {
+    font-size: 1.75rem;
+  }
+  .section-subheading {
+    font-size: 1.25rem;
+  }
+  .section-text {
+    font-size: 1rem;
+  }
+}
+
+/* Fade In Animation for images */
+.designpackage img {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.designpackage .note-section {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.designpackage .note-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.designpackage .note-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+  font-size: 14px;
+}
+.designpackage .with-line {
+  border-left: 4px solid #28a745; /* vertical line */
+  padding-left: 12px; /* spacing between line & text */
+  text-align: left; /* align paragraph text to the left */
+  margin: 20px auto; /* keep it centered inside the container */
+  max-width: 600px; /* optional: keeps text block narrower */
+}
+.designpackage .table-wrapper {
+  min-height: 100vh; /* full screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* light gray bg */
+  padding: 20px;
+}
+
+.designpackage .table-container {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Unique animation: smooth scale & fade */
+.designpackage .animate-table {
+  animation: popUp 1.2s ease-out;
+}
+
+@keyframes popUp {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(50px);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.05) translateY(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.designpackage .h2 {
+  color: #28a745;
+}
+/* Container */
+.designpackage .enquire-container {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("./10.1.png") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* use min-height for smaller screens */
+}
+
+/* Wrapper for heading + box */
+.designpackage .enquire-content {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main heading */
+.designpackage .free-quote-heading {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: white; /* Dark green */
+  margin-bottom: 20px;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+/* Form box */
+.designpackage .enquire-box {
+  background-color: rgba(255, 255, 255, 0.2); /* semi-transparent glass */
+  -webkit-backdrop-filter: blur(10px); /* frosted glass blur */
+  backdrop-filter: blur(10px); /* for Safari */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px; /* optional, you had 0 before */
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border for glass effect */
+}
+
+/* Box heading */
+.designpackage .enquire-box h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #fff;
+}
+
+/* Form styling */
+.designpackage .enquire-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.designpackage .enquire-box input,
+.designpackage .enquire-box textarea {
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.designpackage .enquire-box input::placeholder,
+.designpackage .enquire-box textarea::placeholder {
+  color: #555;
+}
+
+/* Mobile input field */
+.designpackage .mobile-input {
+  display: flex;
+}
+
+.designpackage .country-code {
+  background: #fff;
+  padding: 12px;
+  border-radius: 6px 0 0 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.designpackage .mobile-input input {
+  flex: 1;
+  border-radius: 0 6px 6px 0;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+.designpackage .enquire-box button {
+  background-color: white; /* Dark green button */
+  color: black;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.designpackage .enquire-box button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Section Title (centered) */
+.designpackage .section-title {
+  text-align: center; /* center only heading */
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 auto 1.5rem auto;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+/* Entire Content Block (left aligned with gap) */
+.designpackage .mt-4 {
+  max-width: 900px;
+  margin: 0 0 20px 300px; /* gap from left side */
+  text-align: left;
+  padding: 10px;
+  animation: fadeInUp 1.2s ease-in-out;
+}
+/* Underline effect */
+.designpackage .section-title::after {
+  content: "";
+  display: block;
+  width: 60px; /* length of line */
+  height: 3px; /* thickness */
+  background: #198754; /* color of line */
+  margin: 8px auto 0 auto; /* center below text */
+  border-radius: 2px; /* smooth edges */
+  animation: growLine 1s ease-in-out;
+}
+
+/* Titles and Subtitles */
+.designpackage .content-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  animation: slideInLeft 1.2s ease-in-out;
+}
+
+.designpackage .content-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1rem;
+  animation: fadeIn 1.4s ease-in-out;
+}
+
+/* Paragraphs */
+.designpackage .p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #333;
+  animation: fadeIn 1.6s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.designpackage .design-box {
+  background-color: #198754;
+  padding: 10px;
+  border-radius: 5px;
+  color: #333;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+}
+.designpackage .design-number {
+  background-color: #fff;
+  color: black;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.designpackage .design-description {
+  font-size: 1rem;
+}
+.designpackage .carousel-inner img {
+  width: 900px;
+  height: 650px;
+  border: 2px white solid;
+  border-radius: 12px;
+}
+.designpackage .carousel-control-prev {
+  color: #28a745;
+}
+/* Change background color of the carousel control icons */
+.designpackage .carousel-control-prev-icon,
+.designpackage .carousel-control-next-icon {
+  background-color: #28a745; /* Your desired color (green here) */
+  border-radius: 50%; /* Make them round if you want */
+  width: 50px; /* Adjust size */
+  height: 50px;
+  background-size: 100%, 100%;
+}
+
+/* Optional: Add hover effect */
+.designpackage .carousel-control-prev-icon:hover,
+.designpackage .carousel-control-next-icon:hover {
+  background-color: #145c32; /* Darker green on hover */
+}
+
+/* Responsive styles for the table */
+@media (max-width: 768px) {
+  .designpackage .table-container table {
+    min-width: 200px;
+  }
+  .designpackage .table-container th,
+  .designpackage .table-container td {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .designpackage .table-container table {
+    display: block;
+  }
+  .designpackage .table-container thead {
+    display: none;
+  }
+  .designpackage .table-container tbody,
+  .designpackage .table-container tr,
+  .designpackage .table-container td {
+    display: block;
+  }
+  .designpackage .table-container tr {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .designpackage .table-container td {
+    padding: 10px;
+    position: relative;
+    padding-left: 50%;
+  }
+  .designpackage .table-container td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+}
+
+/* Card style for mobile view */
+@media (max-width: 576px) {
+  .designpackage .package-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  .designpackage .package-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .designpackage .package-content {
+    padding-left: 10px;
+  }
+  .designpackage .buttons {
+    display: none;
+  }
+}
+
+/* Hide these buttons on small screens (mobile) */
+@media (max-width: 767px) {
+  .mobile-hide {
+    display: none !important;
+  }
+
+  /* Optional: make the first button full width and visible */
+  .buttons td:first-child + td button {
+    display: block !important;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .table .buttons td {
+    border: none !important;
+  }
+
+  .table .buttons td:first-child {
+    display: none;
+  }
+
+  .table .buttons td button {
+    width: 100%;
+  }
+}
+
+/* Center delivery time row and buttons on mobile */
+@media (max-width: 767px) {
+  /* Center the delivery time cells */
+  .table tbody tr.delivery-time td {
+    text-align: center;
+  }
+
+  /* Center the buttons row */
+  .table tbody tr.buttons td {
+    text-align: center;
+  }
+
+  /* Make buttons smaller and centered */
+  .table tbody tr.buttons td button {
+    display: inline-block;
+    width: auto;
+    min-width: 120px; /* optional */
+    margin: 5px auto; /* center horizontally */
+  }
+
+  /* Optional: hide some labels if needed */
+  .table thead th span,
+  .table thead th small {
+    display: block;
+    font-size: 0.8rem;
+  }
+}
+
+/* Center delivery time row on mobile */
+@media (max-width: 576px) {
+  .designpackage .table-container tbody tr.delivery-time td {
+    text-align: center;
+    padding-left: 0 !important; /* remove extra padding from responsive layout */
+  }
+
+  /* Center buttons */
+  .designpackage .table-container tbody tr.buttons td {
+    text-align: center;
+    padding-left: 0 !important;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .designpackage .table-container tbody tr.buttons td button {
+    display: block;
+    width: 80%; /* adjust width as needed */
+    max-width: 250px; /* optional */
+    margin: 10px auto; /* center horizontally */
+  }
+}

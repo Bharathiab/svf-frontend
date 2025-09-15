@@ -1,0 +1,57 @@
+/* Heading */
+.h1 {
+  font-size: 40px;
+  color: #198754;
+  text-shadow: #198754 2px 2px 5px;
+}
+
+/* Quote Icon */
+.icon {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Name / Role */
+.p {
+  color: #198754;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Team Images (no animation now) */
+.image {
+  border-radius: 1rem;
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Card Container for Images */
+.fixed-height-card {
+  height: 400px;   /* keeps images uniform */
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+/* Ensure image inside card fits */
+.card-img-fixed {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 1rem;
+}
+
+/* Background for text cards */
+.card {
+  background-color: #fbfbfb;
+  border-radius: 1rem;
+}
+
+/* Hover effect on text cards */
+.cards:hover {
+  box-shadow: 0 10px 25px #198754;
+}

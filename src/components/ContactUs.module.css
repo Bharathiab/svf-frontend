@@ -1,0 +1,303 @@
+/* =======================
+   Contact Us Section
+======================= */
+.contact-us {
+  position: relative;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+/* Optional: Add a subtle dark overlay for better readability */
+.contact-us::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25); /* adjust opacity */
+  z-index: 0;
+}
+
+/* =======================
+   Floating Background Icons
+======================= */
+.floating-icon,
+.floating-icon2,
+.floating-icon3 {
+  position: absolute;
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+.floating-icon img,
+.floating-icon2 img,
+.floating-icon3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.floating-icon {
+  top: 10%;
+  left: -100px;
+  width: 80px;
+  height: 80px;
+  animation: floatDiagonal1 25s linear infinite;
+}
+
+.floating-icon2 {
+  top: 50%;
+  left: -150px;
+  width: 100px;
+  height: 100px;
+  animation: floatDiagonal2 30s linear infinite;
+}
+
+.floating-icon3 {
+  top: 80%;
+  left: -120px;
+  width: 90px;
+  height: 90px;
+  animation: floatDiagonal3 28s linear infinite;
+}
+
+@keyframes floatDiagonal1 {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate(120vw, -50px) rotate(360deg);
+  }
+}
+
+@keyframes floatDiagonal2 {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate(140vw, -70px) rotate(-360deg);
+  }
+}
+
+@keyframes floatDiagonal3 {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate(130vw, -60px) rotate(360deg);
+  }
+}
+
+/* =======================
+   Contact Form
+======================= */
+.contact-form {
+  position: relative;
+  background: rgba(255, 255, 255, 0.2); /* lighter, more transparent */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* subtle glass border */
+  -webkit-backdrop-filter: blur(15px); /* stronger blur for glass effect */
+  backdrop-filter: blur(15px); /* Safari support */
+  padding: 40px 30px;
+  border-radius: 15px;
+  margin: 0 auto 50px;
+  max-width: 600px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1;
+}
+
+.contact-form:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form h2 {
+  margin-bottom: 25px;
+  color: white;
+  font-weight: 700;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button,
+.contact-form select {
+  display: block;
+  width: 100%;
+  margin: 12px auto;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 8px rgba(40, 167, 69, 0.3);
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form button {
+  background: white;
+  color: black;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #218838;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* =======================
+   Phone Row
+======================= */
+.phone-row {
+  display: flex;
+  gap: 10px;
+}
+
+.phone-row .country-code {
+  width: 90px;
+  border-radius: 8px 0 0 8px;
+  background: #fff;
+}
+
+.phone-row input {
+  flex: 1;
+  border-radius: 0 8px 8px 0;
+  border-left: none;
+}
+
+/* =======================
+   Cards Row
+======================= */
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.card {
+  position: relative;
+  flex: 1;
+  min-width: 250px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 25px 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  margin-bottom: 12px;
+  color: white;
+  font-weight: 600;
+}
+
+.card p,
+.card a {
+  font-size: 15px;
+  color: white;
+  word-wrap: break-word;
+}
+
+/* =======================
+   Buttons
+======================= */
+.map-btn,
+.call-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.map-btn {
+  background: black;
+}
+
+.map-btn:hover {
+  border: 2px solid black;
+  background: white;
+  color: black;
+}
+
+.call-link {
+  background: black;
+  color: white;
+}
+
+.call-link:hover {
+  border: 2px solid black;
+  background: white;
+  color: black;
+}
+
+/* In your CSS module (e.g., Designpackage.module.css) */
+.emailButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.emailButton:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.insta-logo {
+  width: 45px;
+  height: 45px;
+  transition: transform 0.3s ease;
+}
+
+.insta-logo:hover {
+  transform: scale(1.1);
+}
+
+/* =======================
+   Responsive
+======================= */
+@media screen and (max-width: 768px) {
+  .contact-form {
+    padding: 30px 20px;
+  }
+  .row {
+    gap: 15px;
+  }
+  .card {
+    min-width: 200px;
+  }
+}

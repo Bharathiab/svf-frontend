@@ -1,0 +1,50 @@
+
+.works {
+  padding: 40px;
+  background: #f4f3f3;
+  text-align: center;
+}
+
+.works-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.works-title span {
+  color: red; /* Projects in red */
+}
+
+.work-card {
+  margin: 40px auto;
+  max-width: 900px;
+  text-align: left;
+  border-bottom: 1px solid #198754;
+  padding-bottom: 20px;
+}
+
+.work-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.work-details {
+  font-size: 16px;
+}
+
+.work-details .customer {
+  margin: 5px 0;
+  color: #555;
+}
+
+.work-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.work-details li {
+  margin: 6px 0;
+  font-size: 16px;
+}
