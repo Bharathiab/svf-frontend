@@ -294,7 +294,9 @@ const ConstructionPackagesSection = () => {
                     </div>
                   ))}
                   <div className="text-center mt-2 mt-md-3">
-                     <Button
+                     <Button onClick={() =>
+                        (window.location.href = "tel:+918122876119")
+                      }
                       style={{ backgroundColor: "#198754", border: "none" }}
                     >
                       GET DETAILED SPECIFICATION
@@ -307,9 +309,11 @@ const ConstructionPackagesSection = () => {
         ))}
       </Row>
       <div className="text-center mt-3 mt-md-4">
-        <a href="/contact-us"><Button style={{ backgroundColor: "#198754", border: "none" }}>
+        <Button style={{ backgroundColor: "#198754", border: "none" }} onClick={() =>
+                        (window.location.href = "tel:+918122876119")
+                      }>
           GET FREE ESTIMATE WITH MATERIAL & BRAND SPECIFICATION
-        </Button></a>
+        </Button>
       </div>
     </Container>
   );

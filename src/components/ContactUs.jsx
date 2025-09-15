@@ -48,7 +48,9 @@ const ContactUs = () => {
           </div>
           <input type="text" placeholder="Enter Your Site Location" />
           <textarea rows="4" placeholder="Your Message"></textarea>
-          <button>Send Enquiry</button>
+          <button onClick={() =>
+                        (window.location.href = "tel:+918122876119")
+                      }>Send Enquiry</button>
         </div>
 
         {/* First Row Cards */}

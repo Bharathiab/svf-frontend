@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 const ConstructionPackage = lazy(() => import('./components/ConstructionPackage'));
-import Ourteam from './components/Ourteam';
+import OurTeam from './components/OurTeam';
 import OurWorks from './components/OurWorks';
 import './App.css';
 import Interior from './components/Interior';
@@ -25,7 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/construction-package" element={<ConstructionPackage />} />
-            <Route path="/ourteam" element={<Ourteam />} />
+            <Route path="/ourteam" element={<OurTeam />} />
             <Route path="/ourworks" element={<OurWorks />} />
             <Route path="/interior" element={<Interior/>}/>
             <Route path="/design-package" element={<DesignPackage/>}/>

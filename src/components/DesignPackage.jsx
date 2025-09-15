@@ -370,32 +370,40 @@ const DesignPackage = () => {
                 <tr className="buttons">
                   <td></td>
                   <td>
-                    <a href="/contact-us">
-                      <button className="btn btn-success btn-sm">
+                    
+                      <button className="btn btn-success btn-sm" onClick={() =>
+                        (window.location.href = "tel:+918122876119")
+                      }>
                         Book Now
                       </button>
-                    </a>
+                   
                   </td>
                   <td>
-                    <a href="/contact-us">
-                      <button className="btn btn-success btn-sm">
-                        Book Now
-                      </button>
-                    </a>
+                    <button
+                      className="btn btn-success btn-sm"
+                      onClick={() =>
+                        (window.location.href = "tel:+918122876119")
+                      }
+                    >
+                      Book Now
+                    </button>
                   </td>
                   <td>
-                    <a href="/contact-us">
-                      <button className="btn btn-success btn-sm">
+                      <button className="btn btn-success btn-sm" onClick={() =>
+                        (window.location.href = "tel:+918122876119")
+                      }>
                         Book Now
                       </button>
-                    </a>
+                    
                   </td>
                   <td>
-                    <a href="/contact-us">
-                      <button className="btn btn-success btn-sm">
+                    
+                      <button className="btn btn-success btn-sm" onClick={() =>
+                        (window.location.href = "tel:+918122876119")
+                      }>
                         Book Now
                       </button>
-                    </a>
+                   
                   </td>
                 </tr>
               </tbody>
@@ -484,7 +492,10 @@ const DesignPackage = () => {
         </section>
 
         {/* Enquire Form */}
-      <div className="enquire-container" style={{background: 'url(/10.1.png) center/cover no-repeat'}}>
+        <div
+          className="enquire-container"
+          style={{ background: "url(/10.1.png) center/cover no-repeat" }}
+        >
           <div
             className="enquire-content mx-auto"
             style={{ maxWidth: "570px", width: "100%" }}
@@ -729,9 +740,9 @@ const DesignPackage = () => {
                       ))}
 
                       <div className="text-center mt-2 mt-md-3">
-                        <a href="/contact-us">
-                          {" "}
-                          <Button
+                          <Button onClick={() =>
+                        (window.location.href = "tel:+918122876119")
+                      }
                             className="w-100 w-md-auto"
                             style={{
                               backgroundColor: "#198754",
@@ -740,7 +751,7 @@ const DesignPackage = () => {
                           >
                             GET DETAILED SPECIFICATION
                           </Button>
-                        </a>
+                        
                       </div>
                     </div>
                   </Card.Body>
@@ -750,14 +761,16 @@ const DesignPackage = () => {
           </Row>
 
           <div className="text-center mt-3 mt-md-4">
-            <a href="/contact-us">
-              <Button
+            
+              <Button onClick={() =>
+                        (window.location.href = "tel:+918122876119")
+                      }
                 className="w-100 w-md-auto"
                 style={{ backgroundColor: "#198754", border: "none" }}
               >
                 GET FREE ESTIMATE WITH MATERIAL & BRAND SPECIFICATION
               </Button>
-            </a>
+           
           </div>
         </Container>
 
