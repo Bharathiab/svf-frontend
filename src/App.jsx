@@ -21,7 +21,7 @@ function App() {
         `}
       </style>
       <Router>
-        <Suspense fallback={<div className="loading-spinner">Loading...</div>}>
+        <Suspense fallback={<div className="loading-spinner">Loading....</div>}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/construction-package" element={<ConstructionPackage />} />
