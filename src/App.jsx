@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 const ConstructionPackage = lazy(() => import('./components/ConstructionPackage'));
-import OurTeam from './components/OurTeam';
+import OurTeam from './components/OurTeam.jsx';
 import OurWorks from './components/OurWorks';
 import './App.css';
 import Interior from './components/Interior';
