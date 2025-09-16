@@ -252,7 +252,7 @@ const ConstructionPackagesSection = () => {
                 <div
                   className="text-center p-2 p-md-3"
                   style={{
-                    backgroundColor: "#198754",
+                    backgroundColor: "#de7129ff",
                     color: "white",
                     borderTopLeftRadius: "0.5rem",
                     borderTopRightRadius: "0.5rem",
@@ -280,7 +280,7 @@ const ConstructionPackagesSection = () => {
                             className="ps-3"
                             style={{
                               backgroundColor: "#f0f8f0",
-                              borderLeft: "4px solid #198754",
+                              borderLeft: "4px solid #de7129ff",
                               padding: "10px 15px",
                               marginTop: "5px",
                               listStyleType: "none",
@@ -297,7 +297,7 @@ const ConstructionPackagesSection = () => {
                      <Button onClick={() =>
                         (window.location.href = "tel:+918122876119")
                       }
-                      style={{ backgroundColor: "#198754", border: "none" }}
+                      style={{ backgroundColor: "#de7129ff", border: "none" }}
                     >
                       GET DETAILED SPECIFICATION
                     </Button>
@@ -309,7 +309,7 @@ const ConstructionPackagesSection = () => {
         ))}
       </Row>
       <div className="text-center mt-3 mt-md-4">
-        <Button style={{ backgroundColor: "#198754", border: "none" }} onClick={() =>
+        <Button style={{ backgroundColor: "#de7129ff", border: "none" }} onClick={() =>
                         (window.location.href = "tel:+918122876119")
                       }>
           GET FREE ESTIMATE WITH MATERIAL & BRAND SPECIFICATION
@@ -353,14 +353,14 @@ const ConstructionPackage = () => {
                   variant="outline-success"
                   className="d-flex align-items-center justify-content-center mb-2 mb-md-3 w-100"
                 >
-                  <FaFilePdf className="me-2 text-danger" />
+                  <FaFilePdf className="me-2 text-Light" />
                   Company Registration Certificate
                 </Button>
                 <Button
-                  variant="outline-success"
+                  variant="outline-warning"
                   className="d-flex align-items-center justify-content-center w-100"
                 >
-                  <FaFilePdf className="me-2 text-danger" />
+                  <FaFilePdf className="me-2 text-Light" />
                   Company Pancard
                 </Button>
               </div>
@@ -409,7 +409,7 @@ const ConstructionPackage = () => {
     <Row className="g-4">
       <Col xs={12} md={4}>
         <img
-          src="./1.1.png"
+          src="./new7.jpg"
           alt="3D Design 1"
           loading="lazy"
           className="img-fluid rounded shadow-sm"
@@ -417,7 +417,7 @@ const ConstructionPackage = () => {
       </Col>
       <Col xs={12} md={4}>
         <img
-          src="./c2.png"
+          src="./new2.jpg"
           alt="3D Design 2"
           loading="lazy"
           className="img-fluid rounded shadow-sm"
@@ -425,7 +425,7 @@ const ConstructionPackage = () => {
       </Col>
       <Col xs={12} md={4}>
         <img
-          src="./2.jpeg"
+          src="./new3.jpg"
           alt="3D Design 3"
           loading="lazy"
           className="img-fluid rounded shadow-sm"
@@ -433,7 +433,7 @@ const ConstructionPackage = () => {
       </Col>
       <Col xs={12} md={4}>
         <img
-          src="./8.png"
+          src="./new4.jpg"
           alt="3D Design 4"
           loading="lazy"
           className="img-fluid rounded shadow-sm"
@@ -441,7 +441,7 @@ const ConstructionPackage = () => {
       </Col>
       <Col xs={12} md={4}>
         <img
-          src="./5.jpeg"
+          src="./new5.jpg"
           alt="3D Design 5"
           loading="lazy"
           className="img-fluid rounded shadow-sm"
@@ -449,7 +449,7 @@ const ConstructionPackage = () => {
       </Col>
       <Col xs={12} md={4}>
         <img
-          src="./3.jpeg"
+          src="./new6.jpg"
           alt="3D Design 6"
           loading="lazy"
           className="img-fluid rounded shadow-sm"
@@ -642,7 +642,7 @@ const ConstructionPackage = () => {
               {/* Card */}
               <div
                 style={{
-                  backgroundColor: "#198754",
+                  backgroundColor: "#de7129ff",
                   color: "#ffffffff",
                   fontWeight: "700",
                   padding: "10px 15px",
@@ -667,8 +667,8 @@ const ConstructionPackage = () => {
                     height: 0,
                     borderTop: "10px solid transparent",
                     borderBottom: "10px solid transparent",
-                    borderLeft: isSmall ? "10px solid #198754" : (isLeft ? "10px solid #198754" : "none"),
-                    borderRight: isSmall ? "none" : (isLeft ? "none" : "10px solid #198754"),
+                    borderLeft: isSmall ? "10px solid #C05B17" : (isLeft ? "10px solid #C05B17" : "none"),
+                    borderRight: isSmall ? "none" : (isLeft ? "none" : "10px solid #C05B17"),
                     zIndex: 3,
                     display: isSmall ? "block" : "block",
                   }}
@@ -676,7 +676,7 @@ const ConstructionPackage = () => {
                 <span
                   style={{
                     backgroundColor: "white",
-                    color: "#198754",
+                    color: "#de7129ff",
                     padding: "5px 10px",
                     borderRadius: "3px",
                     fontWeight: "900",
@@ -729,7 +729,7 @@ const ConstructionPackage = () => {
             top: `calc(${i * (100 / 4)}% - 10px)`,
             width: "20px",
             height: "20px",
-            backgroundColor: "#198754",
+            backgroundColor: "#de7129ff",
             borderRadius: "50%",
             border: "3px solid white",
             boxShadow: "0 0 5px rgba(0,0,0,0.1)",
@@ -771,7 +771,7 @@ const ConstructionPackage = () => {
         { number: "4", title: "Structural Drawing", img: "./t2.4.png" },
         { number: "5", title: "Elevation 3d Design", img: "./t2.5.png" },
         { number: "6", title: "Approval Drawing", img: "./t2.6.png" },
-        { number: "7", title: "3D Interior Design", img: "./t2.7.png" },
+        { number: "7", title: "3D Interior Design", img: "./new1.jpg" },
 
       ].map((step, index) => {
         const isLeft = index % 2 === 0;
@@ -801,7 +801,7 @@ const ConstructionPackage = () => {
               {/* Card */}
               <div
                 style={{
-                  backgroundColor: "#198754",
+                  backgroundColor: "#de7129ff",
                   color: "#ffffffff",
                   fontWeight: "700",
                   padding: "10px 15px",
@@ -826,8 +826,8 @@ const ConstructionPackage = () => {
                     height: 0,
                     borderTop: "10px solid transparent",
                     borderBottom: "10px solid transparent",
-                    borderLeft: isSmall ? "10px solid #198754" : (isLeft ? "10px solid #198754" : "none"),
-                    borderRight: isSmall ? "none" : (isLeft ? "none" : "10px solid #198754"),
+                    borderLeft: isSmall ? "10px solid #C05B17" : (isLeft ? "10px solid #C05B17" : "none"),
+                    borderRight: isSmall ? "none" : (isLeft ? "none" : "10px solid #C05B17"),
                     zIndex: 3,
                     display: isSmall ? "block" : "block",
                   }}
@@ -835,7 +835,7 @@ const ConstructionPackage = () => {
                 <span
                   style={{
                     backgroundColor: "white",
-                    color: "#198754",
+                    color: "#de7129ff",
                     padding: "5px 10px",
                     borderRadius: "3px",
                     fontWeight: "900",
@@ -888,7 +888,7 @@ const ConstructionPackage = () => {
             top: `calc(${i * (100 / 6)}% - 10px)`,
             width: "20px",
             height: "20px",
-            backgroundColor: "#198754",
+            backgroundColor: "#de7129ff",
             borderRadius: "50%",
             border: "3px solid white",
             boxShadow: "0 0 5px rgba(0,0,0,0.1)",

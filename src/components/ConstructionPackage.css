@@ -7,14 +7,14 @@
 }
 
 .section-title {
-  color: #198754;
+  color: #de7129ff;
   font-weight: 700;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
 .section-subtitle {
-  color: #198754;
+  color: #de7129ff;
   font-weight: 600;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -49,7 +49,7 @@
 
 .section-list li::before {
   content: "•";
-  color: #198754;
+  color: #de7129ff;
   font-weight: bold;
   position: absolute;
   left: 0;
@@ -58,7 +58,7 @@
 .green-bar {
   height: 4px;
   width: 60px;
-  background-color: #198754;
+  background-color: #de7129ff;
   margin: 0 auto 20px auto;
 }
 

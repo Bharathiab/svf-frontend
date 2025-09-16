@@ -371,7 +371,7 @@ const DesignPackage = () => {
                   <td></td>
                   <td>
                     
-                      <button className="btn btn-success btn-sm" onClick={() =>
+                      <button className="btn btn-warning btn-sm" onClick={() =>
                         (window.location.href = "tel:+918122876119")
                       }>
                         Book Now
@@ -380,7 +380,7 @@ const DesignPackage = () => {
                   </td>
                   <td>
                     <button
-                      className="btn btn-success btn-sm"
+                      className="btn btn-warning btn-sm"
                       onClick={() =>
                         (window.location.href = "tel:+918122876119")
                       }
@@ -389,7 +389,7 @@ const DesignPackage = () => {
                     </button>
                   </td>
                   <td>
-                      <button className="btn btn-success btn-sm" onClick={() =>
+                      <button className="btn btn-warning btn-sm" onClick={() =>
                         (window.location.href = "tel:+918122876119")
                       }>
                         Book Now
@@ -398,7 +398,7 @@ const DesignPackage = () => {
                   </td>
                   <td>
                     
-                      <button className="btn btn-success btn-sm" onClick={() =>
+                      <button className="btn btn-warning btn-sm" onClick={() =>
                         (window.location.href = "tel:+918122876119")
                       }>
                         Book Now
@@ -441,7 +441,7 @@ const DesignPackage = () => {
             <Row className="g-3 g-md-4 justify-content-center">
               <Col xs={12} sm={6} md={4} lg={4}>
                 <img
-                  src="/1.1.png"
+                  src="./new2.jpg"
                   alt="3D Design 1"
                   loading="lazy"
                   className="img-fluid rounded shadow-sm"
@@ -449,7 +449,7 @@ const DesignPackage = () => {
               </Col>
               <Col xs={12} sm={6} md={4} lg={4}>
                 <img
-                  src="/c2.png"
+                  src="./new6.jpg"
                   alt="3D Design 2"
                   loading="lazy"
                   className="img-fluid rounded shadow-sm"
@@ -457,7 +457,7 @@ const DesignPackage = () => {
               </Col>
               <Col xs={12} sm={6} md={4} lg={4}>
                 <img
-                  src="/2.jpeg"
+                  src="./new4.jpg"
                   alt="3D Design 3"
                   loading="lazy"
                   className="img-fluid rounded shadow-sm"
@@ -465,7 +465,7 @@ const DesignPackage = () => {
               </Col>
               <Col xs={12} sm={6} md={4} lg={4}>
                 <img
-                  src="/8.png"
+                  src="./new5.jpg"
                   alt="3D Design 4"
                   loading="lazy"
                   className="img-fluid rounded shadow-sm"
@@ -473,7 +473,7 @@ const DesignPackage = () => {
               </Col>
               <Col xs={12} sm={6} md={4} lg={4}>
                 <img
-                  src="/5.jpeg"
+                  src="./new3.jpg"
                   alt="3D Design 5"
                   loading="lazy"
                   className="img-fluid rounded shadow-sm"
@@ -481,7 +481,7 @@ const DesignPackage = () => {
               </Col>
               <Col xs={12} sm={6} md={4} lg={4}>
                 <img
-                  src="/3.jpeg"
+                  src="./new7.jpg"
                   alt="3D Design 6"
                   loading="lazy"
                   className="img-fluid rounded shadow-sm"
@@ -568,7 +568,7 @@ const DesignPackage = () => {
                 <div className="text-center">
                   <button
                     type="button"
-                    className="btn btn-success px-4"
+                    className="btn btn-warning px-4"
                     onClick={() => (window.location.href = "tel:+918122876119")}
                   >
                     Submit
@@ -687,7 +687,7 @@ const DesignPackage = () => {
                     <div
                       className="text-center p-2 p-md-3"
                       style={{
-                        backgroundColor: "#198754",
+                        backgroundColor: "purple",
                         color: "white",
                         borderTopLeftRadius: "0.5rem",
                         borderTopRightRadius: "0.5rem",
@@ -723,7 +723,7 @@ const DesignPackage = () => {
                                 className="ps-3 mb-2"
                                 style={{
                                   backgroundColor: "#f0f8f0",
-                                  borderLeft: "4px solid #198754",
+                                  borderLeft: "4px solid #dc3545",
                                   padding: "10px 15px",
                                   marginTop: "5px",
                                   listStyleType: "none",
@@ -745,7 +745,7 @@ const DesignPackage = () => {
                       }
                             className="w-100 w-md-auto"
                             style={{
-                              backgroundColor: "#198754",
+                              backgroundColor: "purple",
                               border: "none",
                             }}
                           >
@@ -766,7 +766,7 @@ const DesignPackage = () => {
                         (window.location.href = "tel:+918122876119")
                       }
                 className="w-100 w-md-auto"
-                style={{ backgroundColor: "#198754", border: "none" }}
+                style={{ backgroundColor: "purple", border: "none" }}
               >
                 GET FREE ESTIMATE WITH MATERIAL & BRAND SPECIFICATION
               </Button>

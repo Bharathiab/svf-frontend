@@ -35,7 +35,7 @@
   left: 0;
   height: 3px;
   width: 0;
-  background-color:  #198754;
+  background-color:  yellowgreen;
   transition: width 0.4s ease-in-out;
 }
 
@@ -47,7 +47,7 @@
 /* Package Cards */
 .package-card {
   color:white;
-  background:  #198754 !important;
+  background: yellowgreen !important;
   padding: 20px;
   border-radius: 6px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);

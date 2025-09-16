@@ -1,4 +1,14 @@
-/* Your existing underline styles stay */
+/* ========================
+   Navbar Base Styling
+======================== */
+.navbar {
+  display: flex;
+  align-items: center;        
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+/* Nav links underline effect */
 .navbar-nav .nav-link {
   position: relative;
   transition: color 0.3s;
@@ -11,7 +21,7 @@
   height: 2px;
   left: 0;
   bottom: -4px;
-  background-color: #28a745;
+  background-color: orange;
   transition: width 0.3s;
 }
 
@@ -20,8 +30,71 @@
   width: 100%;
 }
 
+/* ========================
+   Brand and Logo
+======================== */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 0 !important;   /* remove extra spacing */
+  padding-left: 0 !important;  /* ensure logo touches left edge */
+}
+
+.navbar-brand img {
+  height: 75px !important; /* bigger logo for desktop */
+  width: auto;
+  object-fit: contain;
+  margin-right: 12px;
+}
+.brand-text {
+  font-weight: 700;       /* keeps it bold */
+  font-size: 28px;        /* bigger text */
+  color: #dc3535;         /* optional: match text-danger */
+}
+
+/* ========================
+   Responsive Fixes
+======================== */
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+    position: relative;
+  }
+
+  .navbar-brand {
+    flex: 1;
+  }
+
+  .navbar-brand img {
+    height: 60px !important;  /* smaller logo for mobile */
+  }
+
+  /* Brand text centered on mobile */
+  .brand-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  /* Toggler stays on right */
+  .navbar-toggler {
+    margin-top: 10px;
+    position: absolute;
+    right: 1rem;
+    top: 0.75rem;
+  }
+}
+
 /* 🚫 Disable underline only for Contact Us */
 .contact-link::after,
 .contact-link.active::after {
   display: none !important;
+}
+.navbar {
+  margin-top: 0;
+  padding-top: 0;
 }

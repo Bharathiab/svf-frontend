@@ -13,7 +13,7 @@ const Ourteam = () => {
     <div>
       <Navbar />
       <div className="container mt-5"><br></br><br></br>
-        <h1 className="h1 text-center text-success">O U R  <span>T E A M</span></h1>
+        <h1 className="h1 text-center text-danger">O U R  <span>T E A M</span></h1>
       </div>
       <div className="container mt-5">
         <div className="row g-5">

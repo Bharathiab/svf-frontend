@@ -10,7 +10,7 @@ body, html {
       padding: 30px;
     }
     .form-box {
-      background: #fff;
+      background:white; /* mocha mousse */
       padding: 30px;
       border-radius: 10px;
       box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
@@ -22,13 +22,13 @@ body, html {
       margin-bottom: 20px;
     }
     .btn-quote {
-      background-color: #198754;
-      color: #fff;
+      background-color: #4B3B4F; /* purple basil */
+      color:white; /* mocha mousse */
       font-weight: bold;
       border-radius: 50px;
     }
     .btn-quote:hover {
-      border-color: #28a745;
+      border-color: #6E3B3B; /* rumors */
     }
     .headline {
       position: absolute;
@@ -54,7 +54,7 @@ body, html {
       display: block;
       width: 50%;
       height: 3px;
-      background:#28a745;
+      background:#C05B17;
       margin: 10px auto 0;
     }
     .solution-card {
@@ -94,14 +94,14 @@ body, html {
       display: inline-block;
     }
     .experience-section h2 span {
-      color: #28a745;
+      color:#C05B17;
     }
     .experience-section h2::after {
       content: '';
       display: block;
       width: 60%;
       height: 3px;
-      background: #28a745;
+      background: #C05B17;
       margin: 10px auto 0;
     }
     .experience-img {
@@ -113,7 +113,7 @@ body, html {
       transform: scale(1.03);
     }
     .b{
-      background-color: #28a745;
+      background-color: #C05B17;
       color: white;
       border: 2px white solid;
     }
@@ -136,7 +136,7 @@ body, html {
 
 /* Enquiry form box */
 .enquiry-box {
-  background-color:#198754; /* yellow background */
+  background-color:#C05B17; /* yellow background */
   max-width: 400px;
   width: 100%;
   color: white;
@@ -160,7 +160,7 @@ body, html {
 .enquiry-box button:hover {
   border-radius: 12px;
   padding: 10px;
-  color: #198754;
+  color: #C05B17;
   background-color: white;
   border: 2px white solid;
 }
@@ -168,7 +168,7 @@ body, html {
 
 /* Yellow banner */
 .cta-banner {
-  background-color: #28a745;
+  background-color: #C05B17;
 }
 
 /* Ensure height matches map */
@@ -183,7 +183,7 @@ body, html {
 }
 
 .social-icons a:hover {
-  color: #dc3545;
+  color: #C05B17;
 }
 
 .h2{

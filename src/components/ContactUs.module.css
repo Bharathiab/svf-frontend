@@ -137,7 +137,7 @@
 .contact-form input:focus,
 .contact-form textarea:focus,
 .contact-form select:focus {
-  border-color: #28a745;
+  border-color: #C05B17;
   box-shadow: 0 0 8px rgba(40, 167, 69, 0.3);
 }
 
@@ -155,7 +155,7 @@
 }
 
 .contact-form button:hover {
-  background: #218838;
+  background: #C05B17;
   color: white;
   transform: translateY(-2px);
 }

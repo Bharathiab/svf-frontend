@@ -1,8 +1,8 @@
 /* Heading */
 .h1 {
   font-size: 40px;
-  color: #198754;
-  text-shadow: #198754 2px 2px 5px;
+  color: #de7129ff;
+  text-shadow: #de7129ff 2px 2px 5px;
 }
 
 /* Quote Icon */
@@ -15,7 +15,7 @@
 
 /* Name / Role */
 .p {
-  color: #198754;
+  color: #de7129ff;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -53,5 +53,5 @@
 
 /* Hover effect on text cards */
 .cards:hover {
-  box-shadow: 0 10px 25px #198754;
+  box-shadow: 0 10px 25px #de7129ff;
 }

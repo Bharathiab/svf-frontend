@@ -70,26 +70,26 @@ const Home = () => {
         <div id="heroCarousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <div className="hero-slide d-flex align-items-center" style={{ backgroundImage: "url('./c1.png')" }}>
+              <div className="hero-slide d-flex align-items-center" style={{ backgroundImage: "url('./new1.jpg')" }}>
                 <div className="container text-center text-white">
                   <p className="lead">GET YOUR DREAM HOME CONSTRUCTED BY THE EXPERTS</p>
-                  <h1 className="display-5 fw-bold">A RESIDENTIAL CONSTRUCTION COMPANY</h1>
+                  <h1 className="display-0 fw-bold">A RESIDENTIAL CONSTRUCTION COMPANY</h1>
                 </div>
               </div>
             </div>
             <div className="carousel-item">
-              <div className="hero-slide d-flex align-items-center" style={{ backgroundImage: "url('./c2.png')" }}>
+              <div className="hero-slide d-flex align-items-center" style={{ backgroundImage: "url('./new2.jpg')" }}>
                 <div className="container text-center text-white">
                   <p className="lead">WE BUILD MODERN HOMES WITH STYLE</p>
-                  <h1 className="display-5 fw-bold">DESIGNED FOR YOUR LIFESTYLE</h1>
+                  <h1 className="display-0 fw-bold">DESIGNED FOR YOUR LIFESTYLE</h1>
                 </div>
               </div>
             </div>
             <div className="carousel-item">
-              <div className="hero-slide d-flex align-items-center" style={{ backgroundImage: "url('./c3.png')" }}>
+              <div className="hero-slide d-flex align-items-center" style={{ backgroundImage: "url('./new7.jpg')" }}>
                 <div className="container text-center text-white">
                   <p className="lead">QUALITY. TRUST. EXCELLENCE.</p>
-                  <h1 className="display-5 fw-bold">BUILDING HOMES WITH PASSION</h1>
+                  <h1 className="display-0 fw-bold">BUILDING HOMES WITH PASSION</h1>
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@ const Home = () => {
         </div>
   <br></br><hr></hr>
          {/* Why SVF Section */}
-        <section className="py-5 text-center" style={{ backgroundColor: " #198754", color: "white" }}>
+        <section className="py-5 text-center" style={{ backgroundColor: " #ed8642ff", color: "white" }}>
           <div className="container">
             <h2 className="fw-bold mb-4">Why SVF ?</h2>
             <div className="row g-4">
@@ -156,7 +156,7 @@ const Home = () => {
                 <div className="col-6 col-md-3" key={idx}>
                   <Link to={`/construction-package#${pkg.toLowerCase().replace(/\s/g, '-')}`} style={{ textDecoration: "none" }}>
                     <div className="package-card" style={{ cursor: "pointer" }}>
-                      <h6 className="fw-bold" style={{ backgroundColor: " #198754", color: "white" }}>{pkg} PACKAGE</h6>
+                      <h6 className="fw-bold" style={{ backgroundColor: "yellowgreen", color: "white" }}>{pkg} PACKAGE</h6>
                       <div className="underline" style={{ height: "2px", backgroundColor: "white", marginTop: "5px" }}></div>
                     </div>
                   </Link>
@@ -185,7 +185,7 @@ const Home = () => {
                 { img: "13.png", title: "Interior Designs", desc: "Stylish interiors for comfort & beauty." },
               ].map((service, idx) => (
                 <div className="col-md-4" key={idx}>
-                  <div className="service-box">
+                  <div className="service-box bg-white">
                     <img src={`./${service.img}`} width="60" alt="" /><br /><br />
                     <h5>{service.title}</h5>
                     <p>{service.desc}</p>
@@ -201,7 +201,7 @@ const Home = () => {
         <section className="py-5 text-center bg-light">
           <div className="container">
             <h2 className="fw-bold mb-4">Home Construction Cost Calculator (2025)</h2><br />
-            <a href="#" className="btn btn-success px-4 py-3 fw-bold rounded-pill shadow-sm" style={{ backgroundColor: " #198754", color: "white" }}>
+            <a href="#" className="btn btn-warning px-4 py-3 fw-bold rounded-pill shadow-sm" style={{ backgroundColor: " yellowgreen", color: "white" }}>
               ARRIVE YOUR HOME CONSTRUCTION COST HERE
             </a>
           </div>
@@ -213,7 +213,7 @@ const Home = () => {
             <h2 className="fw-bold">Our Completed Signature Projects</h2><br />
             <p className="text-muted">Actual Pictures</p><br />
             <div className="row g-3">
-              {["1.1.png","2.jpeg","3.jpeg","4.jpeg","5.jpeg","9.png","8.png","10.1.png"].map((img, idx) => (
+              {["new2.jpg","new3.jpg","new6.jpg","new5.jpg","new6.jpg","new7.jpg","new2.jpg","new4.jpg"].map((img, idx) => (
                 <div className="col-12 col-md-6 col-lg-3" key={idx}>
                   <img src={`./${img}`} className="img-fluid rounded shadow-sm" alt={`Completed Site ${idx+1}`} />
                 </div>

@@ -9,28 +9,28 @@ const projects = [
     area: "6100 sqft",
     floors: "G+2",
     value: "Rs. 1.2 Cr",
-    image: "projects1.png",
+    image: "new1.jpg",
   },
   {
     name: "Mr. Saleem",
     area: "6500 sqft",
     floors: "G+2",
     value: "Rs. 1.25 Cr",
-    image: "10.png",
+    image: "new7.jpg",
   },
   {
     name: "Mr. Sathish Kumar",
     area: "2590 sqft",
     floors: "G+1",
     value: "Rs. 65 Lakhs",
-    image: "c3.png",
+    image: "new3.jpg",
   },
   {
     name: "Mr. Senthilraj",
     area: "3700 sqft",
     floors: "G+1",
     value: "Rs. 80 Lakhs",
-    image: "7.png",
+    image: "new2.jpg",
   },
 ];
 

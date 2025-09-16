@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import "./interior.css"; // custom styles go here
+import "./Interior.css"; // custom styles go here
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
@@ -13,7 +13,7 @@ export default function Interior() {
       {/* Hero Section */}
       <div className="hero-section" style={{background: 'url(/sofa1.jpg) no-repeat center center fixed', backgroundSize: 'cover'}}>
         {/* Headline */}
-        <div className="headline text-success ">
+        <div className="headline text-danger ">
           <span>HOME INTERIOR EXPERTS !!!</span>
           <br />
         </div><br></br><br></br>
@@ -43,7 +43,7 @@ export default function Interior() {
                 placeholder="Email ID" required
               />
             </div>
-            <button type="submit" className="btn btn-quote w-100 bg-success" onClick={() => window.location.href = "tel:+918122876119"}>
+            <button type="submit" className="btn btn-quote w-100 bg-danger" onClick={() => window.location.href = "tel:+918122876119"}>
               GET FREE QUOTE
             </button>
           </form>
@@ -89,7 +89,7 @@ export default function Interior() {
             ))}
           </div>
 
-          <button className="btn btn-consult bg-success" onClick={() => window.location.href = "tel:+918122876119"}>BOOK FREE CONSULTATION</button>
+          <button className="btn btn-consult bg-danger" onClick={() => window.location.href = "tel:+918122876119"}>BOOK FREE CONSULTATION</button>
         </div>
       </section>
 
@@ -275,7 +275,7 @@ export default function Interior() {
 
               <p>
                 <strong>Phone :</strong>{" "}
-                <a href="tel:+919003318418" className="text-success">
+                <a href="tel:+919003318418" className="text-danger">
                   +91 8122876119
                 </a>
               </p>
@@ -283,14 +283,14 @@ export default function Interior() {
                 <strong>Mail :</strong>{" "}
                 <a
                   href="mailto:svinayagafoundation@gmail.com"
-                  className="text-success"
+                  className="text-danger"
                 >
                   svinayagafoundation@gmail.com
                 </a>
               </p>
 
               <p>
-                <span className="text-success fw-bold">Address : </span> No.3 , Munusami Koil Street ,
+                <span className="text-danger fw-bold">Address : </span> No.3 , Munusami Koil Street ,
                 Menambedu Ambattur , Chennai - 600053
               </p>
 

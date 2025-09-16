@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer
       style={{
-        backgroundColor: " #198754", // green background
+        backgroundColor: "black",
         color: "#fff",
-        padding: "30px 0 0", // smaller padding
+        padding: "30px 0 0",
         fontFamily: "Arial, sans-serif",
         margin: 0,
       }}
@@ -100,70 +100,54 @@ const Footer = () => {
           </h4>
           <ul style={{ listStyle: "none", padding: "0", lineHeight: "1.8" }}>
             {[
-              "Home",
-              "Our Team",
-              "Construction Package",
-              "Design Package",
-              "Our Works",
-              "Interior",
-              "Contact Us",
+              { text: "Home", link: "/" },
+              { text: "Our Team", link: "/ourteam" },
+              { text: "Construction Package", link: "/construction-package" },
+              { text: "Design Package", link: "/design-package" },
+              { text: "Our Works", link: "/ourworks" },
+              { text: "Interior", link: "/interior" },
+              { text: "Contact Us", link: "/contact-us" },
             ].map((item, i) => (
-              <li key={i}>
-                {item === "Home" ? (
+              <li key={i} style={{ display: "flex", alignItems: "center" }}>
+                {/* Arrow Symbol */}
+                <span
+                  style={{
+                    color: "orange", // arrow color
+                    marginRight: "8px",
+                    fontSize: "14px",
+                  }}
+                >
+                  ►
+                </span>
+
+                {/* Link Text */}
+                {item.link.startsWith("/") ? (
                   <Link
-                    to="/"
+                    to={item.link}
                     style={{
                       color: "#fff",
                       fontSize: "13px",
                       textDecoration: "none",
                       transition: "0.3s",
                     }}
-                    onMouseEnter={(e) => (e.target.style.color = "#c8facc")}
+                    onMouseEnter={(e) => (e.target.style.color = "orange")}
                     onMouseLeave={(e) => (e.target.style.color = "#fff")}
                   >
-                    {item}
-                  </Link>
-                ) : item === "Construction Package" ? (
-                  <Link
-                    to="/construction-package"
-                    style={{
-                      color: "#fff",
-                      fontSize: "13px",
-                      textDecoration: "none",
-                      transition: "0.3s",
-                    }}
-                    onMouseEnter={(e) => (e.target.style.color = "#c8facc")}
-                    onMouseLeave={(e) => (e.target.style.color = "#fff")}
-                  >
-                    {item}
-                  </Link>
-                ) : item === "Our Team" ? (
-                  <Link
-                    to="/ourteam"
-                    style={{
-                      color: "#fff",
-                      fontSize: "13px",
-                      textDecoration: "none",
-                      transition: "0.3s",
-                    }}
-                    onMouseEnter={(e) => (e.target.style.color = "#c8facc")}
-                    onMouseLeave={(e) => (e.target.style.color = "#fff")}
-                  >
-                    {item}
+                    {item.text}
                   </Link>
                 ) : (
                   <a
-                    href="#"
+                    href={item.link}
                     style={{
                       color: "#fff",
                       fontSize: "13px",
                       textDecoration: "none",
                       transition: "0.3s",
                     }}
-                    onMouseEnter={(e) => (e.target.style.color = "#c8facc")}
+                    onMouseEnter={(e) => (e.target.style.color = "orange")}
                     onMouseLeave={(e) => (e.target.style.color = "#fff")}
                   >
-                    {item}
+                    {item.text}
                   </a>
                 )}
               </li>
@@ -210,7 +194,8 @@ const Footer = () => {
           margin: "0",
         }}
       >
-        © {new Date().getFullYear()} SRI VINAGAYA FOUNDATION
+        © {new Date().getFullYear()} SRI VINAYAGA FOUNDATION . All rights
+        reserved.
       </p>
     </footer>
   );

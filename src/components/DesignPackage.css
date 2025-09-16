@@ -133,14 +133,14 @@
 }
 
 .designpackage .section-title {
-  color: #198754;
+  color: #C05B17;
   font-weight: 700;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
 .designpackage .section-subtitle {
-  color: #198754;
+  color: #C05B17;
   font-weight: 600;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -175,7 +175,7 @@
 
 .designpackage .section-list li::before {
   content: "•";
-  color: #198754;
+  color: #C05B17;
   font-weight: bold;
   position: absolute;
   left: 0;
@@ -184,7 +184,7 @@
 .designpackage .green-bar {
   height: 4px;
   width: 60px;
-  background-color: #198754;
+  background-color: #C05B17;
   margin: 0 auto 20px auto;
 }
 
@@ -418,7 +418,7 @@
   display: block;
   width: 60px; /* length of line */
   height: 3px; /* thickness */
-  background: #198754; /* color of line */
+  background: #C05B17;
   margin: 8px auto 0 auto; /* center below text */
   border-radius: 2px; /* smooth edges */
   animation: growLine 1s ease-in-out;
@@ -491,7 +491,7 @@
   }
 }
 .designpackage .design-box {
-  background-color: #198754;
+  background-color: orangered;
   padding: 10px;
   border-radius: 5px;
   color: #333;
