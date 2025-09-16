@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import './Ourteam.css';
+import './OurTeam.css';
 import our1 from '../assets/our1.png';
 import our2 from '../assets/our2.png';
 import our3 from '../assets/our3.png';
 
-const Ourteam = () => {
+const OurTeam = () => {
 
   return (
     <div>
@@ -89,4 +89,4 @@ const Ourteam = () => {
   );
 };
 
-export default Ourteam;
+export default OurTeam;
