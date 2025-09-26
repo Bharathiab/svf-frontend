@@ -28,7 +28,7 @@ const ContactUs = () => {
     };
 
     try {
-      const res = await axios.post("https://svf-backend-4.onrender.com/api/contact", finalData);
+      const res = await axios.post("https://backend-svf.onrender.com/api/contact", finalData);
 
       // Show backend response in alert
       alert(res.data.message);
@@ -43,7 +43,7 @@ const ContactUs = () => {
         countryCode: "+91",
       });
     } catch (err) {
-      // Show exact error from backend if available
+      
       alert(
         "Failed to send enquiry: " +
           (err.response?.data || err.message)
