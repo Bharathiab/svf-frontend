@@ -722,8 +722,8 @@ const DesignPackage = () => {
                               <ul
                                 className="ps-3 mb-2"
                                 style={{
-                                  backgroundColor: "#f0f8f0",
-                                  borderLeft: "4px solid #dc3545",
+                                  backgroundColor: "#f6f0f8ff",
+                                  borderLeft: "4px solid purple",
                                   padding: "10px 15px",
                                   marginTop: "5px",
                                   listStyleType: "none",

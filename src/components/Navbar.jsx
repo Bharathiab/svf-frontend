@@ -18,7 +18,7 @@ const Navbar = () => {
               pointerEvents: "none", // not clickable
             }}
           />
-          <span className="brand-text ">Sri Vinayaga Foundation</span>
+          <span className="brand-text ">Bricks and Soils</span>
         </a>
 
         {/* Toggler Button for Mobile */}

@@ -103,7 +103,7 @@ const Home = () => {
         </div>
   <br></br><hr></hr>
          {/* Why SVF Section */}
-        <section className="py-5 text-center" style={{ backgroundColor: " #ed8845ff", color: "white" }}>
+        <section className="py-5 text-center" style={{ backgroundColor: " #d52828ff", color: "white" }}>
           <div className="container">
             <h2 className="fw-bold mb-4">Why SVF ?</h2>
             <div className="row g-4">
